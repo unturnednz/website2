@@ -1,10 +1,21 @@
 .banner {
-    background-color: #6C7A89!important;
-    color: #E4F1FE!important;
+    background: url('img/jumbotron.jpg') no-repeat center center;
+    color: white!important;
 }
 .text-center{
     text-align: center!important;
 }
 img{
     padding-bottom: 10px;
+}
+.logo{
+    color: #d35400;
+}
+
+.btn-orange{
+    background: #ffaf4b; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffaf4b 0%,#ff920a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffaf4b 0%,#ff920a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
 }
